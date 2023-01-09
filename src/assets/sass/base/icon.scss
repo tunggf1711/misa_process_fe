@@ -1,0 +1,70 @@
+.box-app-menu {
+  width: 36px;
+  height: 36px;
+  margin: auto 16px;
+  background-image: url(https://testcdnamisapp.misa.vn/apps/process/img/icon-app-gray.eec2ff5c.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.icon {
+  -webkit-mask-repeat: no-repeat;
+  cursor: pointer;
+  &.iconControl {
+    -webkit-mask-image: url(https://testcdnamisapp.misa.vn/apps/process/img/IconControl.9280241f.svg);
+  }
+  &.iconProcess {
+    -webkit-mask-image: url(https://testcdnamisapp.misa.vn/apps/process/img/Icon_process.8c71ff3c.svg);
+  }
+  &.s-24 {
+    width: 24px;
+    height: 24px;
+  }
+  &.s-20 {
+    width: 20px;
+    height: 20px;
+  }
+  &.three-dot {
+    -webkit-mask-position: -168px 0;
+  }
+  &.run-process {
+    -webkit-mask-position: -136px -97px;
+  }
+  &.search {
+    -webkit-mask-position: -192px 0;
+  }
+  &.questions {
+    -webkit-mask-position: 0 -24px;
+  }
+  &.option-extend {
+    -webkit-mask-position: -304px -309px;
+  }
+  &.employee {
+    -webkit-mask-position: -336px -48px;
+  }
+  &.proctect {
+    -webkit-mask-position: -48px -72px;
+  }
+  &.multiple-user {
+    -webkit-mask-position: -72px -24px;
+  }
+  &.share-link {
+    -webkit-mask-position: -96px -72px;
+  }
+  &.plus {
+    -webkit-mask-position: -240px 0;
+  }
+  &.grey {
+    background-color: #686c7b;
+  }
+  &.white {
+    background-color: #fff;
+  }
+  &.light-grey {
+    background-color: #9fa4b4;
+  }
+  &.blue {
+    background-color: #0c9cdd;
+  }
+}

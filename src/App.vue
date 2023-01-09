@@ -1,26 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <MsHeader></MsHeader>
+  <div class="d-flex align-items-center">
+    <MsSideBar></MsSideBar>
+    <MsContent></MsContent>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import MsHeader from "./components/layouts/MsHeader.vue";
+import MsSideBar from "./components/layouts/MsSideBar.vue";
+import MsContent from "./components/layouts/MsContent.vue";
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  components: { MsHeader, MsSideBar, MsContent },
+};
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss">
+@import "./assets/sass/main.scss";
 </style>

@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.mr-34 {
+  margin-right: 34px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.mr-8 {
+  margin-right: 8px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar {
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #cdd3d6;
+  width: 6px;
+  height: 6px;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb {
+  background: #9ea5a6;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
